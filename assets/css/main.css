@@ -172,13 +172,32 @@ nav.solid #logo .logo{
   top:20px;
 }
 img {
-  height: 250px;
+  /*height: 250px;
   width: 250px;
   margin: 10px 0;
-  -webkit-transform: all 3s ease;
+  -webkit-transform: all 0.5s ease;*/
+  margin: 25px;
+  opacity: 0.8;
+  border: 10px solid #eee;
+  -webkit-transform: all 0.5s ease;
+  -moz-transform: all 0.5s ease;
+  -o-transform: all 0.5s ease;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
 }
 img:hover {
-  height: 268px;
-  width: 268px;
-  /*margin-left: -50px;*/
+  /*height: 268px;
+  width: 268px;*/
+  /*INCREMENTA TAMAÑO*/
+  -webkit-trasform: scale(1.07);
+  -moz-trasform: scale(1.07);
+  -o-trasform: scale(1.07);
+  -ms-trasform: scale(1.07);
+  transform: scale(1.07);*/
+  margin-left: -50px;
+  /*ACLARA IMAGEN*/
+  opacity: 1;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0, 0, 0, 0.1)));
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8);
 }
