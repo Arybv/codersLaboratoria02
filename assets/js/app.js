@@ -1,4 +1,4 @@
-window.addEventListener("load", function(){
+/*window.addEventListener("load", function(){
   var alumnas = document.getElementById("foto");
 //  console.log(selecciona);
   select.onchange=function(){
@@ -6,7 +6,7 @@ window.addEventListener("load", function(){
 
     }
   }
-});
+}); */
 
 
 document.getElementById("toggle").addEventListener("click", function(event){
